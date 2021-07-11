@@ -30,17 +30,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // width and height are in meters
         let box = SCNBox(width: 0.3, height: 0.3, length: 0.3, chamferRadius: 0)
+        let text = SCNText(string: "Hello ARKIT!", extrusionDepth: 1.0)
+        let sphere = SCNSphere(radius: 0.1)
         
         let material = SCNMaterial()
         material.diffuse.contents = UIColor.red
 
+        text.firstMaterial?.diffuse.contents = UIColor.blue
+        sphere.firstMaterial?.diffuse.contents = UIColor.green
         // all the sides of the box will have the same material
         box.materials = [material]
 
         let boxNode = SCNNode(geometry: box)
-        boxNode.position = SCNVector3(0, 0, -0.5)
+        boxNode.position = SCNVector3(0, 0, -1)
+
+        let textNode = SCNNode(geometry: text)
+        textNode.position = SCNVector3(-0.25, 0, 0.25)
+        textNode.scale = SCNVector3(0.01, 0.01, 0.01)
         
+        let sphereNode = SCNNode(geometry: sphere)
+        sphereNode.position = SCNVector3(0, 0.4, 0)
+
         self.sceneView.scene.rootNode.addChildNode(boxNode)
+        boxNode.addChildNode(textNode)
+        boxNode.addChildNode(sphereNode)
     }
     
     override func viewWillAppear(_ animated: Bool) {
