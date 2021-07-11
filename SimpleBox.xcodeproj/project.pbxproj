@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9495B954269B64880059726E /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9495B952269B64880059726E /* earth.jpg */; };
+		9495B955269B64880059726E /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9495B953269B64880059726E /* wood.jpeg */; };
 		94CBBA6C269A3D6D00AEE8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBBA6B269A3D6D00AEE8E7 /* AppDelegate.swift */; };
 		94CBBA6E269A3D6D00AEE8E7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CBBA6D269A3D6D00AEE8E7 /* art.scnassets */; };
 		94CBBA70269A3D6D00AEE8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBBA6F269A3D6D00AEE8E7 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9495B952269B64880059726E /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		9495B953269B64880059726E /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
 		94CBBA68269A3D6D00AEE8E7 /* SimpleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CBBA6B269A3D6D00AEE8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94CBBA6D269A3D6D00AEE8E7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				94CBBA71269A3D6D00AEE8E7 /* Main.storyboard */,
 				94CBBA74269A3D6E00AEE8E7 /* Assets.xcassets */,
 				94CBBA76269A3D6E00AEE8E7 /* LaunchScreen.storyboard */,
+				9495B952269B64880059726E /* earth.jpg */,
+				9495B953269B64880059726E /* wood.jpeg */,
 				94CBBA79269A3D6E00AEE8E7 /* Info.plist */,
 			);
 			path = SimpleBox;
@@ -125,8 +131,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94CBBA6E269A3D6D00AEE8E7 /* art.scnassets in Resources */,
+				9495B954269B64880059726E /* earth.jpg in Resources */,
 				94CBBA78269A3D6E00AEE8E7 /* LaunchScreen.storyboard in Resources */,
 				94CBBA75269A3D6E00AEE8E7 /* Assets.xcassets in Resources */,
+				9495B955269B64880059726E /* wood.jpeg in Resources */,
 				94CBBA73269A3D6D00AEE8E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
