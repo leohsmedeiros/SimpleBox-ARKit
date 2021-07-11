@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9495B954269B64880059726E /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9495B952269B64880059726E /* earth.jpg */; };
 		9495B955269B64880059726E /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9495B953269B64880059726E /* wood.jpeg */; };
+		9495B95C269B6DA60059726E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495B95B269B6DA60059726E /* Extensions.swift */; };
 		94CBBA6C269A3D6D00AEE8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBBA6B269A3D6D00AEE8E7 /* AppDelegate.swift */; };
 		94CBBA6E269A3D6D00AEE8E7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CBBA6D269A3D6D00AEE8E7 /* art.scnassets */; };
 		94CBBA70269A3D6D00AEE8E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CBBA6F269A3D6D00AEE8E7 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		9495B952269B64880059726E /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 		9495B953269B64880059726E /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
+		9495B95B269B6DA60059726E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		94CBBA68269A3D6D00AEE8E7 /* SimpleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CBBA6B269A3D6D00AEE8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94CBBA6D269A3D6D00AEE8E7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				9495B952269B64880059726E /* earth.jpg */,
 				9495B953269B64880059726E /* wood.jpeg */,
 				94CBBA79269A3D6E00AEE8E7 /* Info.plist */,
+				9495B95B269B6DA60059726E /* Extensions.swift */,
 			);
 			path = SimpleBox;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94CBBA70269A3D6D00AEE8E7 /* ViewController.swift in Sources */,
+				9495B95C269B6DA60059726E /* Extensions.swift in Sources */,
 				94CBBA6C269A3D6D00AEE8E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
