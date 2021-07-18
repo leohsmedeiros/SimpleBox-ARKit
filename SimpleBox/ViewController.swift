@@ -16,9 +16,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Just for debugging
+        self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        
         // Set the view's delegate
         sceneView.delegate = self
         
+        // Just for debugging
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
